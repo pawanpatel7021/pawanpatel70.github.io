@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}   
+   
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+ul {
+             margin:0px;
+           padding:0px;
+            list-style: none;
+            max-width:100%;
+            height:auto;
+            line-height: 36px;
+            background-color:black;
+           
+           
+          
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 17px;
+
+}
+
+li{
+float:left;
+border-right:3px solid yellow;
+float:left;
+border-left:3px solid yellow;
+}
+
+a{
+            display:block;
+            padding:0 23px;
+            color:white;
+            text-decoration: none;
+}
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+a:hover{
+         background-color:rgb(136, 182, 77);
+         color:white;
+     transition: all 0.7s;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:black;
+  color: white;
+}
+#Main{
+    color:yellow
+}
+
+.container {
+  padding: 0 16px;
+}
+
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color:white;
+  background-color: rgb(110, 25, 25);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: rgb(78, 163, 96);
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+    </style>
+</head>
+<body>
+</div>
+<div>
+<ul>
+    <li ><a href="index.html">HOME</a></li>
+    <li><a href="About.html">ABOUT ME</a></li>
+    <li><a href="Contact.html">CONTACT ME</a></li>
+</ul>
+</div>
+    
+<div class="about-section">
+    <h1>About Us </h1>
+    <div id="Main">
+    <p>we are a proffesional web developer.</p>
+    <p>we will help you to develop a good website .</p>
+</div>
+  </div>
+  
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <center>
+          <img src="img/my image.jpeg" width="100px" height="100px">
+          </center>
+          <h2>pawan patel</h2>
+          <p class="title">CEO & Founder</p>
+          <p>pavupatel7021@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <center>
+            <img src="img/niks image.jpeg" width="100px" height="100px">
+          </center>
+          <h2>nikhil soni</h2>
+          <p class="title">web developer</p>
+          <p>soninikhil670000@gmail.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <div class="container">
+          <center>
+            <img src="img/deep lodu.jpeg" width="100px" height="100px">
+          </center>
+          <h2>Deep shah</h2>
+          <p class="title">Expert in business analytics</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
